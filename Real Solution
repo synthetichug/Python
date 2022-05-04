@@ -1,0 +1,4 @@
+for i in range(5, len(xorrox)):
+    key = xorrox[i] ^ xorrox[i-1]
+    flag += chr(enc[i] ^ key)
+print(flag)
